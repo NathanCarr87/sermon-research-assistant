@@ -1,0 +1,28 @@
+# theological-profile.yaml
+
+name: "Example Church"
+
+tradition: "Non-denominational Evangelical"
+
+statement_of_faith:
+  source: "church_statement_of_faith"
+  content: "..."
+
+bible:
+  preferred_translation: "ESV"
+
+theological_positions:
+  baptism: "believer"
+  communion: "memorial"
+  spiritual_gifts: "continuationist"
+  salvation: "..."
+
+preferred_sources:
+  - "..."
+
+avoid_sources:
+  - "..."
+
+pastoral_context:
+  audience: "mixed-age congregation"
+  tone: "pastoral, conversational"

@@ -1,0 +1,162 @@
+{
+  "sermon_package": {
+    "id": "string",
+
+    "metadata": {
+      "title": "string",
+      "subtitle": "string | null",
+      "type": "standalone | series_week",
+      "series_id": "string | null",
+      "week": "number | null",
+      "target_length_minutes": 0,
+      "audience": "string",
+      "theological_profile": "string"
+    },
+
+    "concept": {
+      "central_question": "string",
+      "big_idea": "string",
+      "purpose": "string",
+      "primary_scripture": [
+        "string"
+      ]
+    },
+
+    "outline": {
+      "opening": "string",
+
+      "movements": [
+        {
+          "number": 1,
+          "title": "string",
+          "big_idea": "string",
+
+          "scripture": [
+            "string"
+          ],
+
+          "explanation": "string",
+
+          "evidence_ids": [
+            "string"
+          ],
+
+          "illustration": "string | null",
+
+          "application": [
+            "string"
+          ]
+        }
+      ],
+
+      "conclusion": "string",
+      "call_to_response": "string"
+    },
+
+    "manuscript": {
+      "text": "string",
+      "word_count": 0
+    },
+
+    "scripture_references": [
+      {
+        "reference": "string",
+        "translation": "string | null",
+        "role": "primary | supporting | cross_reference"
+      }
+    ],
+
+    "external_references": [
+      {
+        "source_id": "string",
+        "citation": "string",
+        "relevance": "string"
+      }
+    ],
+
+    "preacher_notes": {
+      "opening_notes": "string",
+      "delivery_notes": [
+        "string"
+      ],
+      "transition_notes": [
+        "string"
+      ],
+      "emphasis_points": [
+        "string"
+      ]
+    },
+
+    "slides": [
+      {
+        "number": 1,
+        "title": "string",
+        "body": "string | null",
+        "scripture": "string | null"
+      }
+    ],
+
+    "discussion_guide": {
+      "opening_question": "string",
+      "scripture": [
+        "string"
+      ],
+      "questions": [
+        "string"
+      ],
+      "application": [
+        "string"
+      ],
+      "prayer_prompt": "string"
+    },
+
+    "social_content": {
+      "short_description": "string",
+      "social_posts": [
+        "string"
+      ],
+      "short_video_hooks": [
+        "string"
+      ]
+    },
+
+    "audit": {
+      "status": "passed | needs_revision | failed",
+
+      "biblical": {
+        "status": "passed | needs_revision | failed",
+        "issues": []
+      },
+
+      "research": {
+        "status": "passed | needs_revision | failed",
+        "issues": []
+      },
+
+      "citations": {
+        "status": "passed | needs_revision | failed",
+        "issues": []
+      },
+
+      "hallucination": {
+        "status": "passed | needs_revision | failed",
+        "issues": []
+      },
+
+      "theological": {
+        "status": "passed | needs_revision | failed",
+        "issues": []
+      },
+
+      "rhetorical": {
+        "status": "passed | needs_revision | failed",
+        "issues": []
+      },
+
+      "copyright": {
+        "status": "passed | needs_revision | failed",
+        "issues": []
+      }
+    }
+  }
+}
